@@ -38,3 +38,6 @@ my_data_row = my_cur.fetchall()
 streamlit.dataframe(my_data_row)
 fruit_choice = streamlit.text_input('What fruit would you like to add?')
 
+from urllib.error import URLError
+my_cur.execute()
+
